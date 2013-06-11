@@ -1,0 +1,4 @@
+- Updated openinviter.php to not require a username / private key
+- Removed unnessasary .php and .html files (more_examples/,stats.php,autoupdate.php, etc. )
+- Updated all conf/ files to $autoUpdate = FALSE;
+
