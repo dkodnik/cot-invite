@@ -7,14 +7,19 @@ Tags=user.register.tpl:{INVITE_REGISTER_REFERRAL_CODE}
 ==================== */
 
 $invite_rfc_cookie = $_COOKIE['inv_rfc_'.$sys['site_id']];
+$invite_rfc_session = $_SESSION['inv_rfc_'.$sys['site_id']];
 
 if(!empty($invite_rfc_cookie))
 {
 	$invite_rfc = $invite_rfc_cookie; 
 }
+else if(!empty($invite_rfc_session))
+{
+	$invite_rfc = $invite_rfc_session;
+}
 else
 {
-	$invite_rfc = $_SESSION['inv_rfc_'.$sys['site_id']];
+	$invite_rfc = cot_import('rfc', 'G', 'ALP');
 }
 
 $t->assign(array(

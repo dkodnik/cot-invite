@@ -5,16 +5,16 @@ Code=invite
 Name=Invite
 Category=
 Description=A basic invitation and referral system allowing registered users to promote your site.
-Version=1.1
-Date=2013-june-11
+Version=1.2
+Date=21.09.2016
 Author=tyler@xaez.org
 Copyright=
 Notes=
 SQL=
-Auth_guests=
-Lock_guests=RW12345A
-Auth_members=RW
-Lock_members=12345
+Auth_guests=R
+Lock_guests=W12345A
+Auth_members=R
+Lock_members=W12345A
 Requires_modules=users
 [END_COT_EXT]
 

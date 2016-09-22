@@ -44,3 +44,6 @@ $L['invite_contacts_empty_provider'] = 'You must select a provider';
 $L['invite_contacts_internal_error'] = 'An unexpected has occurred';
 $L['invite_contacts_login_failed'] = 'Login failed. Please check the email and password you have provided and try again later!';
 $L['invite_contacts_cant_get_contacts'] = 'Can\'t get contacts!';
+
+$L['invite_need_agree'] = 'Need agree invite';
+$L['invite_need'] = 'Invite';
